@@ -6,7 +6,7 @@ const totalDiv = document.createElement("div");
 document.body.appendChild(totalDiv);
 
 const getSum = () => {
-  let abc = document.querySelectorAll('.price');
+  let abc = document.querySelectorAll('.prices');
   let sum = 0;
 
   for (let i = 0; i < abc.length; i++) {
